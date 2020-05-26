@@ -1,0 +1,42 @@
+---
+title: "Week_1_R_Markdown"
+author: "Ashfaq Ali Shafin"
+date: "5/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Class-1: Input and Evaluation 
+
+assignment operator <-.
+
+printing the value of print(x)
+
+sequence creation: x1<- 1:20
+
+
+
+```{r InputandEvaluation}
+x<-4 ## assignment operator <-
+print(x) ##printing the value of x
+##msg is a character vector
+msg<-"hello" 
+print(msg)
+## sequence creation
+x1<- 1:20
+print(x1)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
